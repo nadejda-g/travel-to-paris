@@ -15,6 +15,7 @@ body {
     padding: 16px;
     z-index: 1;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .nav-components {
@@ -264,6 +265,7 @@ body {
 
 .museum-pic-right img {
     border-radius: 15%;
+    width: 600px;
 }
 
 .museum-pic-left {
@@ -272,6 +274,7 @@ body {
 
 .museum-pic-left img {
     border-radius: 15%;
+    width: 600px;
 }
 
 .buy-tickets-button button{
@@ -446,3 +449,132 @@ body {
 .review img {
     padding-right: 20px;
 }
+
+.aligned-svg {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+}
+
+.aligned-svg p {
+    font-family: Montserrat;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 8px;
+}
+
+@media all and (max-width: 576px) {
+    .quote {
+        position: absolute;
+        text-align: right;
+        top: 12%;
+        right: 45px;
+        left: 70px;
+        width: fit-content;
+    }
+
+    .about-body {
+        flex-direction: column;
+    }
+
+    .backgroung-img img {
+        width: 100%;
+        object-fit: cover;
+        min-height: 50svh;
+    }
+
+    .banner-title h1 {
+        position: absolute;
+        font-size: 50px;
+        margin-top: 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        padding: 0;
+    }
+
+    .banner {
+        margin-top: 180px;
+        position: relative;
+    }
+
+    .footer {
+        bottom: 0;
+        width: 100%;
+        padding: 10px 25px;
+        box-sizing: border-box;
+    }
+
+    .upper-footer {
+        flex-direction: column;
+    }
+
+    .upper-footer p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .lower-footer {
+        flex-direction: column;
+    }
+
+    .div-button {
+        padding: 15px;
+    }
+
+    .museum-description {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: column;
+        margin-top: -70px;
+    }
+
+    .museum-description1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .museum-pic-right img {
+        width: 400px;
+    }
+
+    .museum-pic-left img {
+        width: 400px;
+    }
+
+    .museum-pic-right {
+        padding: 0px;
+    }
+
+    .museum-pic-left {
+        padding: 0px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .about-body {
+        flex-direction: column;
+    }
+}
+
+/*@media screen and (max-width: 991.98px) {*/
+
+/*}*/
+
+/*@media screen and (max-width: 1199.98px) {*/
+
+/*}*/
