@@ -1,0 +1,448 @@
+body {
+    background: #21212b;
+    background: linear-gradient(130deg, rgba(33, 33, 43, 1) 0%, rgba(46, 46, 112, 1) 53%, rgba(56, 133, 150, 1) 100%);
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #21212b;
+    background: linear-gradient(130deg, rgba(33, 33, 43, 1) 0%, rgba(46, 46, 112, 1) 53%, rgba(56, 133, 150, 1) 100%);
+    padding: 16px;
+    z-index: 1;
+    align-items: center;
+}
+
+.nav-components {
+    display: inline-block;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-shortcuts a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+    border: 1px solid white;
+    padding: 0px 3px 0px 16px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.search-bar input {
+    border: none;
+    min-width: 300px;
+    outline: none;
+}
+
+.search-bar button {
+    border: none;
+    background-color: rgba(56, 133, 150, 1);
+    padding: 10px 10px 6px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner {
+    margin-top: 106px;
+    width: 100%;
+}
+
+.banner-title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 45%;
+}
+
+.banner-title h1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 70px;
+}
+
+.backgroung-img img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.quote {
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    top: 15%;
+    right: 100px;
+}
+
+.quote p {
+    font-family: Damion;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    padding: 15px 80px;
+    box-sizing: border-box;
+}
+
+.upper-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    padding-top: 5px;
+}
+
+.lower-footer ul {
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.upper-footer p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.lower-footer p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 10px;
+}
+
+.upper-footer button {
+    border: none;
+    background-color: rgba(56, 133, 150, 1);
+    padding: 15px 35px 15px 35px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.upper-footer button span {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.social-media-logo {
+    text-decoration: none;
+}
+
+.social-media ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+
+.about-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 106px;
+    width: 100%;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 40px 50px 80px;
+}
+
+.about-text h3 {
+    color: white;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+}
+
+.about-text p {
+    color: white;
+    font-family: Raleway;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    text-indent: 50px;
+    text-align: center;
+}
+
+.about-map {
+    padding: 80px 80px 50px 40px;
+}
+
+.museums-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.museum-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.museum-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 80px 30px 80px;
+}
+
+.museum-text h3 {
+    color: white;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+}
+
+.museum-text p {
+    color: white;
+    font-family: Raleway;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.museum-pic-right {
+    padding: 0 80px 30px 10px;
+}
+
+.museum-pic-right img {
+    border-radius: 15%;
+}
+
+.museum-pic-left {
+    padding: 0 10px 30px 80px;
+}
+
+.museum-pic-left img {
+    border-radius: 15%;
+}
+
+.buy-tickets-button button{
+    border: none;
+    background-color: white;
+    padding: 3px 20px 2px 20px;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.buy-tickets-button p:hover {
+    font-size: 14px;
+}
+
+.buy-tickets-button p {
+    color: rgba(56, 133, 150, 1);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tours-intro {
+    position: relative;
+    margin-top: 106px;
+}
+
+.tours-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 15%;
+    color: white;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 60px;
+    background: rgb(41 41 81 / 40%);
+}
+
+.tours-banner img {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.tour-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.tour-pics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tour-pics img {
+    border-radius: 15%;
+    padding: 20px 20px;
+    width: 350px;
+}
+
+.tour-name {
+    color: white;
+    font-family: Raleway;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+}
+
+.tour-description p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Raleway;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    text-indent: 50px;
+    text-align: center;
+    padding: 20px 300px 5px 300px;
+}
+
+.tour-button button {
+    border: none;
+    background-color: rgba(56, 133, 150, 1);
+    padding: 3px 20px 3px 20px;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.tour-button button:hover {
+    background-color: white;
+}
+
+.tour-button button p:hover {
+    color: rgba(56, 133, 150, 1);
+}
+
+.tour-button p {
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.review-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 100%;
+}
+
+.review-page p {
+    color: white;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.reviews-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.review-text p {
+    color: white;
+    font-family: Raleway;
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+    text-align: left;
+    font-size: 12px;
+}
+
+.person {
+    color: white;
+    font-family: Raleway;
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.review img {
+    padding-right: 20px;
+}
