@@ -490,7 +490,7 @@ body {
     .backgroung-img img {
         width: 100%;
         object-fit: cover;
-        min-height: 50svh;
+        min-height: 65svh;
     }
 
     .banner-title h1 {
