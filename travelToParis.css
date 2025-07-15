@@ -218,6 +218,10 @@ body {
     padding: 80px 80px 50px 40px;
 }
 
+.mobile-map {
+    display: none;
+}
+
 .museums-body {
     display: flex;
     flex-direction: column;
@@ -475,6 +479,10 @@ body {
         width: fit-content;
     }
 
+    .quote p {
+        font-size: 13px;
+    }
+
     .about-body {
         flex-direction: column;
     }
@@ -509,7 +517,7 @@ body {
     .footer {
         bottom: 0;
         width: 100%;
-        padding: 10px 25px;
+        padding: 25px 25px 10px 25px;
         box-sizing: border-box;
     }
 
@@ -530,6 +538,28 @@ body {
         padding: 15px;
     }
 
+    .about-text {
+        padding: 40px 40px 15px 40px;
+        margin-top: 90px;
+    }
+
+    .laptop-map {
+        display: none;
+    }
+
+    .mobile-map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
     .museum-description {
         display: flex;
         align-items: center;
@@ -545,7 +575,12 @@ body {
         justify-content: space-around;
         width: 100%;
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+
+    .museum-text {
+        padding: 10px 30px 30px 30px;
     }
 
     .museum-pic-right img {
@@ -562,6 +597,56 @@ body {
 
     .museum-pic-left {
         padding: 0px;
+    }
+
+    .buy-tickets-button-under-text button {
+        margin-top: -5px;
+    }
+
+    .footer-museums {
+        margin-top: 30px;
+    }
+
+    .tours-banner img {
+        width: 100%;
+        object-fit: cover;
+        min-height: 50svh;
+    }
+
+    .tours-text {
+        font-size: 35px;
+        top: 35%;
+    }
+
+    .tour-pics img {
+        width: 130px;
+        padding: 3px;
+    }
+
+    .tour-description p {
+        padding: 30px;
+    }
+
+    .tour-button button {
+        margin-top: 0px;
+    }
+
+    .reviews-block {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .review-page {
+        margin-top: 230px;
+    }
+
+    .review {
+        margin-top: 30px;
+    }
+
+    .footer-reviews {
+        margin-top: -80px;
     }
 }
 
