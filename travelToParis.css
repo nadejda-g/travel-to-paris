@@ -509,6 +509,10 @@ body {
         padding: 0;
     }
 
+    .search-bar input {
+        min-width: 260px;
+    }
+
     .banner {
         margin-top: 180px;
         position: relative;
@@ -610,7 +614,7 @@ body {
     .tours-banner img {
         width: 100%;
         object-fit: cover;
-        min-height: 50svh;
+        min-height: 65svh;
     }
 
     .tours-text {
@@ -619,7 +623,7 @@ body {
     }
 
     .tour-pics img {
-        width: 130px;
+        width: 30%;
         padding: 3px;
     }
 
